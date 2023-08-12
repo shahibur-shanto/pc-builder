@@ -1,0 +1,502 @@
+{
+  "data": [
+    {
+      "id": "01",
+      "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/03/Intel-Rocker-Lake-2-e1615908186584-920x614.jpg",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+    {
+      "id": "02",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Computer-motherboard.jpg/640px-Computer-motherboard.jpg",
+      "product_name": "ASUS ROG Strix Z690-E",
+      "category": "Motherboard",
+      "price": 349.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "Build a powerful system with this feature-packed motherboard.",
+      "key_features": {
+        "brand": "ASUS",
+        "model": "ROG Strix Z690-E",
+        "Form Factor": "ATX",
+        "Socket": "LGA 1700",
+        "RAM Slots": 4
+      },
+      "individual_rating": [4, 5, 4, 4, 5],
+      "average_rating": 4.6,
+      "reviews": [
+        "Plenty of connectivity options.",
+        "Easy BIOS navigation.",
+        "RGB lighting adds a nice touch."
+      ]
+    },
+
+    {
+      "id": "03",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "04",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiXjeM4H0u9xcL7dqKYlxDE4swlTCuFKR4AA&usqp=CAU",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "05",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "Motherboard",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "06",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "Motherboard",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "07",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "08",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "09",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "10",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "11",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "12",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "13",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "14",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "15",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "16",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "17",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "18",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "19",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    },
+
+    {
+      "id": "20",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "product_name": "Intel Core i9-12900K",
+      "category": "CPU / Processor",
+      "price": 599.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unleash extreme performance with this high-end CPU.",
+      "key_features": {
+        "brand": "Intel",
+        "model": "Core i9-12900K",
+        "type": "Desktop Processor",
+        "cores": 16,
+        "threads": 24
+      },
+      "individual_rating": [5, 4, 5, 5, 4],
+      "average_rating": 4.8,
+      "reviews": [
+        "Blazing fast speed, perfect for gaming.",
+        "Handles multitasking like a champ.",
+        "Cooling solution is impressive."
+      ]
+    }
+  ]
+}

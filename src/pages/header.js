@@ -1,22 +1,23 @@
 import Image from "next/image";
-import logo from "../../src/pages/logo.png";
 import Link from "next/link";
 
-const HomePage = () => {
+import logo from "../../src/pages/logo.png";
+
+const HeaderPage = () => {
   return (
     <div className="navbar bg-green">
       <div className="navbar-start">
-        <Link href="#">
+        <Link href="/">
           <Image src={logo} alt="logo" className="rounded w-24"></Image>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>CPU / Processor </a>
+            <Link href="/cpu">CPU / Processor </Link>
           </li>
           <li>
-            <a>Motherboard</a>
+            <Link href='/motherboard'>Motherboard</Link>
           </li>
           <li>
             <a>RAM</a>
@@ -44,4 +45,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HeaderPage;

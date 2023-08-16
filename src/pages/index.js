@@ -4,6 +4,7 @@ import RootLayouts from "../../components/layouts/RootLayouts";
 import Featureproduct from "./featureproduct";
 import Footer from "./footer";
 import HeaderPage from "./header";
+import Hero from "../../components/layouts/Hero";
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -18,19 +19,23 @@ export default function Home({ allData, allCategory }) {
   return (
     <>
       <div>
+        <Hero />
+      </div>
+      <div>
         <div className="text-center">
           <h1 className="text-4xl mt-10">Featured Category</h1>
           <p className="text-1xl mb-10 mt-5">
             Get Your Desired Product from Featured Category!
           </p>
         </div>
-        <div className="bg-slate-100">
+        <Featureproduct />
+        {/* <div className="bg-slate-100">
           <div className="grid grid-cols-5 gap-10">
             {allCategory.map((category) => {
               return <Featureproduct key={category.id} category={category} />;
             })}
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="text-center">
         <h1 className="text-4xl mt-10">Featured Products</h1>

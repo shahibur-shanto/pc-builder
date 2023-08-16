@@ -18,7 +18,7 @@ const SelectStorage = ({ allData }) => {
 
 export default SelectStorage;
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
   const storageData = data.filter((product) => product.category === "Storage");

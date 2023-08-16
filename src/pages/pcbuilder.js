@@ -2,9 +2,12 @@ import Image from "next/image";
 import RootLayouts from "../../components/layouts/RootLayouts";
 import Link from "next/link";
 import { useSelector } from "react-redux";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const PCbuilderPage = () => {
   const cart = useSelector((state) => state.cart);
+  const notify = () => toast("Your Pc is Build Successfully");
 
   return (
     <div>
@@ -282,8 +285,11 @@ const PCbuilderPage = () => {
             Complete
           </button>
         ) : (
-          <button className="btn bg-blue-100 btn-xs">Complete</button>
+          <button onClick={notify} className="btn bg-blue-100 btn-xs">
+            Complete
+          </button>
         )}
+        <ToastContainer />
       </div>
     </div>
   );

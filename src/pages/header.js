@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import { useSession, signOut } from "next-auth/react";
 import logo from "../../src/pages/logo.png";
 
 const HeaderPage = () => {
+  const { data: session } = useSession();
   return (
     <div className="navbar bg-green">
       <div className="navbar-start">
@@ -40,6 +41,19 @@ const HeaderPage = () => {
         <Link href="/pcbuilder" className="btn">
           PC BUILDER
         </Link>
+        {session?.user ? (
+          <button
+            href="/"
+            onClick={() => signOut({ callbackUrl: "http://localhost:3000/" })}
+            className="btn"
+          >
+            Logout
+          </button>
+        ) : (
+          <Link href="/login" className="btn">
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );

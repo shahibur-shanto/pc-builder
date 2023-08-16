@@ -10,6 +10,7 @@ const nextConfig = {
       "www.google.com",
       "cdn-icons-png.flaticon.com",
       "static.vecteezy.com",
+      "c4.wallpaperflare.com",
     ],
   },
 };

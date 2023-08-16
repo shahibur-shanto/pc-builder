@@ -17,7 +17,7 @@ const SelectRAM = ({ allData }) => {
 };
 
 export default SelectRAM;
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
   const motherboardData = data.filter((product) => product.category === "RAM");

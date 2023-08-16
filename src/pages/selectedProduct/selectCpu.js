@@ -19,7 +19,7 @@ const SelectCPU = ({ allData }) => {
 
 export default SelectCPU;
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
   const cpuData = data.filter(

@@ -1,14 +1,15 @@
-import HomeProduct from "../../components/layouts/HomeProduct";
-import RootLayouts from "../../components/layouts/RootLayouts";
+import HomeProduct from "../../../components/layouts/HomeProduct";
+import RootLayouts from "../../../components/layouts/RootLayouts";
+import SelectedProduct from "../../../components/layouts/SelectedProduct";
 
-const CPU = ({ allData }) => {
+const SelectCPU = ({ allData }) => {
   // console.log(allData);
   return (
     <div className="grid grid-cols-3 gap-8">
       {allData.map((product) => {
         return (
           <>
-            <HomeProduct key={product.id} product={product} />
+            <SelectedProduct key={product.id} product={product} />
           </>
         );
       })}
@@ -16,9 +17,9 @@ const CPU = ({ allData }) => {
   );
 };
 
-export default CPU;
+export default SelectCPU;
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
   const cpuData = data.filter(
@@ -31,6 +32,6 @@ export const getServerSideProps = async () => {
     },
   };
 };
-CPU.getLayout = function getLayout(page) {
+SelectCPU.getLayout = function getLayout(page) {
   return <RootLayouts>{page}</RootLayouts>;
 };

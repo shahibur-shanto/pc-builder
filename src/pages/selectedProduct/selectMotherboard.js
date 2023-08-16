@@ -1,13 +1,13 @@
-import HomeProduct from "../../components/layouts/HomeProduct";
-import RootLayouts from "../../components/layouts/RootLayouts";
+import RootLayouts from "../../../components/layouts/RootLayouts";
+import SelectedProduct from "../../../components/layouts/SelectedProduct";
 
-const MotherBoard = ({ allData }) => {
+const SelectMotherBoard = ({ allData }) => {
   return (
     <div className="grid grid-cols-3 gap-8">
       {allData.map((product) => {
         return (
           <>
-            <HomeProduct key={product.id} product={product} />
+            <SelectedProduct key={product.id} product={product} />
           </>
         );
       })}
@@ -15,9 +15,9 @@ const MotherBoard = ({ allData }) => {
   );
 };
 
-export default MotherBoard;
+export default SelectMotherBoard;
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
   const motherboardData = data.filter(
@@ -30,6 +30,6 @@ export const getServerSideProps = async () => {
     },
   };
 };
-MotherBoard.getLayout = function getLayout(page) {
+SelectMotherBoard.getLayout = function getLayout(page) {
   return <RootLayouts>{page}</RootLayouts>;
 };

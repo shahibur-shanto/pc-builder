@@ -1,8 +1,7 @@
 import HomeProduct from "../../components/layouts/HomeProduct";
 import RootLayouts from "../../components/layouts/RootLayouts";
 
-const CPU = ({ allData }) => {
-  // console.log(allData);
+const Others = ({ allData }) => {
   return (
     <div className="grid grid-cols-3 gap-8">
       {allData.map((product) => {
@@ -16,21 +15,21 @@ const CPU = ({ allData }) => {
   );
 };
 
-export default CPU;
+export default Others;
 
 export const getServerSideProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
-  const cpuData = data.filter(
-    (product) => product.category === "CPU / Processor"
+  const motherboardData = data.filter(
+    (product) => product.category === "Others"
   );
 
   return {
     props: {
-      allData: cpuData,
+      allData: motherboardData,
     },
   };
 };
-CPU.getLayout = function getLayout(page) {
+Others.getLayout = function getLayout(page) {
   return <RootLayouts>{page}</RootLayouts>;
 };

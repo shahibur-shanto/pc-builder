@@ -17,27 +17,27 @@ const HeaderPage = () => {
             <Link href="/cpu">CPU / Processor </Link>
           </li>
           <li>
-            <Link href='/motherboard'>Motherboard</Link>
+            <Link href="/motherboard">Motherboard</Link>
           </li>
           <li>
-            <a>RAM</a>
+            <Link href="/ram">RAM</Link>
           </li>
           <li>
-            <a>Power Supply Unit </a>
+            <Link href="/powersupply">Power Supply Unit </Link>
           </li>
           <li>
-            <a>Storage Device </a>
+            <Link href="/storage">Storage Device </Link>
           </li>
           <li>
-            <a>Monitor</a>
+            <Link href="/monitor">Monitor</Link>
           </li>
           <li>
-            <a>Others</a>
+            <Link href="/others">Others</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="#" className="btn">
+        <Link href="/pcbuilder" className="btn">
           PC BUILDER
         </Link>
       </div>

@@ -1,13 +1,14 @@
-import HomeProduct from "../../components/layouts/HomeProduct";
-import RootLayouts from "../../components/layouts/RootLayouts";
+import RootLayouts from "../../../components/layouts/RootLayouts";
+import SelectedProduct from "../../../components/layouts/SelectedProduct";
 
-const RAM = ({ allData }) => {
+
+const SelectRAM = ({ allData }) => {
   return (
     <div className="grid grid-cols-3 gap-8">
       {allData.map((product) => {
         return (
           <>
-            <HomeProduct key={product.id} product={product} />
+            <SelectedProduct key={product.id} product={product} />
           </>
         );
       })}
@@ -15,8 +16,8 @@ const RAM = ({ allData }) => {
   );
 };
 
-export default RAM;
-export const getServerSideProps = async () => {
+export default SelectRAM;
+export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/data");
   const data = await res.json();
   const motherboardData = data.filter((product) => product.category === "RAM");
@@ -27,6 +28,6 @@ export const getServerSideProps = async () => {
     },
   };
 };
-RAM.getLayout = function getLayout(page) {
+SelectRAM.getLayout = function getLayout(page) {
   return <RootLayouts>{page}</RootLayouts>;
 };

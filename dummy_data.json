@@ -153,7 +153,7 @@
       "id": "07",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "RAM",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -178,7 +178,7 @@
       "id": "08",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "RAM",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -203,7 +203,7 @@
       "id": "09",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "RAM",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -228,7 +228,7 @@
       "id": "10",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Monitor",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -253,7 +253,7 @@
       "id": "11",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Monitor",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -278,7 +278,7 @@
       "id": "12",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Monitor",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -303,7 +303,7 @@
       "id": "13",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Power Supply",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -328,7 +328,7 @@
       "id": "14",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Power Supply",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -353,7 +353,7 @@
       "id": "15",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Power Supply",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -378,7 +378,7 @@
       "id": "16",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Storage",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -403,7 +403,7 @@
       "id": "17",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Storage",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -428,7 +428,7 @@
       "id": "18",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Storage",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -453,7 +453,7 @@
       "id": "19",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Others",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -478,7 +478,7 @@
       "id": "20",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "product_name": "Intel Core i9-12900K",
-      "category": "CPU / Processor",
+      "category": "Others",
       "price": 599.99,
       "status": "In Stock",
       "rating": 4.8,
@@ -497,6 +497,48 @@
         "Handles multitasking like a champ.",
         "Cooling solution is impressive."
       ]
+    }
+  ],
+  "category": [
+    {
+      "id": "01",
+      "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/03/Intel-Rocker-Lake-2-e1615908186584-920x614.jpg",
+      "category": "cpu"
+    },
+    {
+      "id": "02",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Computer-motherboard.jpg/640px-Computer-motherboard.jpg",
+      "category": "motherboard"
+    },
+
+    {
+      "id": "07",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "category": "ram"
+    },
+
+    {
+      "id": "10",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "category": "monitor"
+    },
+
+    {
+      "id": "13",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "category": "powersupply"
+    },
+
+    {
+      "id": "16",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "category": "storage"
+    },
+
+    {
+      "id": "19",
+      "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
+      "category": "others"
     }
   ]
 }

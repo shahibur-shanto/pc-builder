@@ -66,7 +66,7 @@ export default ProductDetails;
 export const getServerSideProps = async (context) => {
   const { params } = context;
   const res = await fetch(
-    `http://localhost:5000/data/${params.productDetails}`
+    `https://pc-builder-server-delta.vercel.app/data/${params.productDetails}`
   );
   const data = await res.json();
   // console.log(data);

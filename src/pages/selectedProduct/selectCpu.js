@@ -20,9 +20,9 @@ const SelectCPU = ({ allData }) => {
 export default SelectCPU;
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/data");
+  const res = await fetch("https://pc-builder-server-delta.vercel.app/data");
   const data = await res.json();
-  const cpuData = data.filter(
+  const cpuData = data.data.filter(
     (product) => product.category === "CPU / Processor"
   );
 

@@ -14,7 +14,7 @@ function shuffleArray(array) {
 }
 
 export default function Home({ allData, allCategory }) {
-  const { data, isLoading, isError, error } = useGetProductQuery();
+  // const { data, isLoading, isError, error } = useGetProductQuery();
   // console.log(data);
   return (
     <>
@@ -28,14 +28,14 @@ export default function Home({ allData, allCategory }) {
             Get Your Desired Product from Featured Category!
           </p>
         </div>
-        <Featureproduct />
-        {/* <div className="bg-slate-100">
+        {/* <Featureproduct /> */}
+        <div className="bg-slate-100">
           <div className="grid grid-cols-5 gap-10">
             {allCategory.map((category) => {
               return <Featureproduct key={category.id} category={category} />;
             })}
           </div>
-        </div> */}
+        </div>
       </div>
       <div className="text-center">
         <h1 className="text-4xl mt-10">Featured Products</h1>
@@ -54,19 +54,22 @@ export default function Home({ allData, allCategory }) {
   );
 }
 
-export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/data");
-  const data = await res.json();
-  const shuffledData = [...data];
-  shuffleArray(shuffledData);
+export const getStaticProps = async () => {
+  const res = await fetch("https://pc-builder-server-delta.vercel.app/data");
 
-  const res1 = await fetch("http://localhost:5000/category");
+  const data = await res.json();
+  // console.log(data);
+  const shuffledData = [...data.data];
+  // shuffleArray(shuffledData);
+
+  const res1 = await fetch("https://pc-builder-server-delta.vercel.app/category");
   const data1 = await res1.json();
+  console.log(data1);
 
   return {
     props: {
       allData: shuffledData,
-      allCategory: data1,
+      allCategory: data1.category,
     },
   };
 };

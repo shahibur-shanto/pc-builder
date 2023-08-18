@@ -17,9 +17,9 @@ const SelectPowerSupply = ({ allData }) => {
 
 export default SelectPowerSupply;
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/data");
+  const res = await fetch("https://pc-builder-server-delta.vercel.app/data");
   const data = await res.json();
-  const motherboardData = data.filter(
+  const motherboardData = data.data.filter(
     (product) => product.category === "Power Supply"
   );
 

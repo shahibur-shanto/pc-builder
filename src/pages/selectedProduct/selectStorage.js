@@ -1,7 +1,6 @@
 import RootLayouts from "../../../components/layouts/RootLayouts";
 import SelectedProduct from "../../../components/layouts/SelectedProduct";
 
-
 const SelectStorage = ({ allData }) => {
   return (
     <div className="grid grid-cols-3 gap-8">
@@ -19,9 +18,11 @@ const SelectStorage = ({ allData }) => {
 export default SelectStorage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/data");
+  const res = await fetch("https://pc-builder-server-delta.vercel.app/data");
   const data = await res.json();
-  const storageData = data.filter((product) => product.category === "Storage");
+  const storageData = data.data.filter(
+    (product) => product.category === "Storage"
+  );
 
   return {
     props: {

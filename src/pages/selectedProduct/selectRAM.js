@@ -1,7 +1,6 @@
 import RootLayouts from "../../../components/layouts/RootLayouts";
 import SelectedProduct from "../../../components/layouts/SelectedProduct";
 
-
 const SelectRAM = ({ allData }) => {
   return (
     <div className="grid grid-cols-3 gap-8">
@@ -18,9 +17,11 @@ const SelectRAM = ({ allData }) => {
 
 export default SelectRAM;
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/data");
+  const res = await fetch("https://pc-builder-server-delta.vercel.app/data");
   const data = await res.json();
-  const motherboardData = data.filter((product) => product.category === "RAM");
+  const motherboardData = data.data.filter(
+    (product) => product.category === "RAM"
+  );
 
   return {
     props: {

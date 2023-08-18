@@ -5,7 +5,7 @@ const HomeProduct = ({ product }) => {
   //   console.log(product);
   return (
     <Link
-      href={`/${product.id}`}
+      href={`/${product._id}`}
       style={{
         backgroundColor: "lightcyan",
         margin: "10px",

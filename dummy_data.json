@@ -512,31 +512,31 @@
     },
 
     {
-      "id": "07",
+      "id": "03",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "category": "ram"
     },
 
     {
-      "id": "10",
+      "id": "04",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "category": "monitor"
     },
 
     {
-      "id": "13",
+      "id": "05",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "category": "powersupply"
     },
 
     {
-      "id": "16",
+      "id": "06",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "category": "storage"
     },
 
     {
-      "id": "19",
+      "id": "07",
       "image": "https://media.istockphoto.com/id/1204740322/photo/cpu.jpg?s=612x612&w=0&k=20&c=DSjrMlrtuD42yC5XHtpoc2mqGEYEjk-B-JTDK4McTK8=",
       "category": "others"
     }

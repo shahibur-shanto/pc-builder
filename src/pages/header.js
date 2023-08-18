@@ -44,7 +44,7 @@ const HeaderPage = () => {
         {session?.user ? (
           <button
             href="/"
-            onClick={() => signOut({ callbackUrl: "http://localhost:3000/" })}
+            onClick={() => signOut({ callbackUrl: "https://pc-bulder-site-1.vercel.app/" })}
             className="btn"
           >
             Logout

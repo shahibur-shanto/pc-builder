@@ -48,7 +48,7 @@ const PCbuilderPage = () => {
                   <p>No Item Selected</p>
                 ) : (
                   <>
-                    <p>{cart.cartCPUItems[0].id}</p>
+                    <p>ID: {cart.cartCPUItems[0].id}</p>
                     <p>{cart.cartCPUItems[0].product_name}</p>
                     <Image
                       width={100}
@@ -90,6 +90,7 @@ const PCbuilderPage = () => {
                   <p>No Item Selected</p>
                 ) : (
                   <>
+                    <p>ID: {cart.cartMotherboardItems[0].id}</p>
                     <p>{cart.cartMotherboardItems[0].product_name}</p>
                     <Image
                       width={100}
@@ -131,6 +132,7 @@ const PCbuilderPage = () => {
                   <p>No Item Selected</p>
                 ) : (
                   <>
+                    <p>ID: {cart.cartRAMItems[0].id}</p>
                     <p>{cart.cartRAMItems[0].product_name}</p>
                     <Image
                       width={100}
@@ -172,6 +174,7 @@ const PCbuilderPage = () => {
                   <p>No Item Selected</p>
                 ) : (
                   <>
+                    <p>ID: {cart.cartPowerSupplyItems[0].id}</p>
                     <p>{cart.cartPowerSupplyItems[0].product_name}</p>
                     <Image
                       width={100}
@@ -213,6 +216,8 @@ const PCbuilderPage = () => {
                   <p>No Item Selected</p>
                 ) : (
                   <>
+                    <p>ID: {cart.cartStorageItems[0].id}</p>
+
                     <p>{cart.cartStorageItems[0].product_name}</p>
                     <Image
                       width={100}
@@ -254,6 +259,7 @@ const PCbuilderPage = () => {
                   <p>No Item Selected</p>
                 ) : (
                   <>
+                    <p>ID: {cart.cartMonitorItems[0].id}</p>
                     <p>{cart.cartMonitorItems[0].product_name}</p>
                     <Image
                       width={100}
@@ -275,11 +281,11 @@ const PCbuilderPage = () => {
         </table>
       </div>
       <div className="grid grid-cols-1 content-center m-10">
-        {cart.cartCPUItems.length === 0 &&
-        cart.cartMotherboardItems.length === 0 &&
-        cart.cartPowerSupplyItems.length === 0 &&
-        cart.cartRAMItems.length === 0 &&
-        cart.cartStorageItems.length === 0 &&
+        {cart.cartCPUItems.length === 0 ||
+        cart.cartMotherboardItems.length === 0 ||
+        cart.cartPowerSupplyItems.length === 0 ||
+        cart.cartRAMItems.length === 0 ||
+        cart.cartStorageItems.length === 0 ||
         cart.cartMonitorItems.length === 0 ? (
           <button disabled className="btn bg-blue-100 btn-xs">
             Complete

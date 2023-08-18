@@ -1,10 +1,8 @@
 import { useGetProductQuery } from "@/redux/api/api";
 import HomeProduct from "../../components/layouts/HomeProduct";
 import RootLayouts from "../../components/layouts/RootLayouts";
-import Featureproduct from "./featureproduct";
-import Footer from "./footer";
-import HeaderPage from "./header";
 import Hero from "../../components/layouts/Hero";
+import Featureproduct from "../../components/layouts/Featureproduct";
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -32,7 +30,11 @@ export default function Home({ allData, allCategory }) {
         <div className="bg-slate-100">
           <div className="grid grid-cols-5 gap-10">
             {allCategory.map((category) => {
-              return <Featureproduct key={category.id} category={category} />;
+              return (
+                <>
+                  <Featureproduct key={category.id} category={category} />
+                </>
+              );
             })}
           </div>
         </div>
@@ -54,7 +56,7 @@ export default function Home({ allData, allCategory }) {
   );
 }
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   const res = await fetch("https://pc-builder-server-delta.vercel.app/data");
 
   const data = await res.json();
@@ -62,9 +64,11 @@ export const getStaticProps = async () => {
   const shuffledData = [...data.data];
   // shuffleArray(shuffledData);
 
-  const res1 = await fetch("https://pc-builder-server-delta.vercel.app/category");
+  const res1 = await fetch(
+    "https://pc-builder-server-delta.vercel.app/category"
+  );
   const data1 = await res1.json();
-  console.log(data1);
+  // console.log(data1);
 
   return {
     props: {

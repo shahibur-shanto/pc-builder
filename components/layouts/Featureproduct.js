@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RootLayouts from "../../components/layouts/RootLayouts";
+import RootLayouts from "./RootLayouts";
 import Link from "next/link";
 
 const Featureproduct = ({ category }) => {
@@ -8,7 +8,7 @@ const Featureproduct = ({ category }) => {
     <div>
       {/* {allCategory?.map((category) => { */}
       {/* return ( */}
-      <div className="m-10 rounded bg-slate-200" key={category.id}>
+      <div className="m-10 rounded bg-slate-200">
         <Link href={`/${category.category}`}>
           <div>
             <Image

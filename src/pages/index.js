@@ -1,4 +1,3 @@
-import { useGetProductQuery } from "@/redux/api/api";
 import HomeProduct from "../../components/layouts/HomeProduct";
 import RootLayouts from "../../components/layouts/RootLayouts";
 import Hero from "../../components/layouts/Hero";
@@ -62,7 +61,7 @@ export const getServerSideProps = async () => {
   const data = await res.json();
   // console.log(data);
   const shuffledData = [...data.data];
-  // shuffleArray(shuffledData);
+  shuffleArray(shuffledData);
 
   const res1 = await fetch(
     "https://pc-builder-server-delta.vercel.app/category"

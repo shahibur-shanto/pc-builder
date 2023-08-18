@@ -16,7 +16,7 @@ const LoginPage = () => {
           <GithubOutlined
             onClick={() =>
               signIn("github", {
-                callbackUrl: "https://pc-bulder-site-1.vercel.app/",
+                callbackUrl: "https://pc-bulder-site-1.vercel.app",
               })
             }
           />

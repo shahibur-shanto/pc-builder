@@ -1,5 +1,6 @@
 import Image from "next/image";
 import RootLayouts from "../../components/layouts/RootLayouts";
+import Link from "next/link";
 
 export const ProductDetails = ({ product }) => {
   const { key_features, individual_rating, reviews } = product;
@@ -56,7 +57,9 @@ export const ProductDetails = ({ product }) => {
         </div>
 
         <div className="card-actions justify-start">
-          <button className="btn btn-primary">Listen</button>
+          <Link href="/" className="btn btn-primary">
+            Back to Home
+          </Link>
         </div>
       </div>
     </div>
